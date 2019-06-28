@@ -31,7 +31,7 @@ Your computer should recognise your micro:bit as a new drive. On computers
 running Windows, `MICROBIT` appears as a drive under Devices and drives. On a Mac
 it appears as a new drive under Devices.
 
-![](/makecode-blockeditor/static/mb/device/usb-windows-device.jpg)
+![](/static/mb/device/usb-windows-device.jpg)
 
 ## Step 2: Download your program
 
@@ -44,11 +44,11 @@ it appears as a new drive under Devices.
 A message will appear at the bottom of the browser asking what you want to do
 with the file. Click **on the arrow next to Save** and click **Save As**
 
-![Save download file dialog](/makecode-blockeditor/static/mb/device/usb/save-as-ie.gif)
+![Save download file dialog](/static/mb/device/usb/save-as-ie.gif)
 
 In the save dialog, save as the ``.hex`` file to the MICROBIT drive.
 
-![Save hex file to MICROBIT drive](/makecode-blockeditor/static/mb/device/usb/save-as-windows.png)
+![Save hex file to MICROBIT drive](/static/mb/device/usb/save-as-windows.png)
 
 ## Step 3: Transfer the file to your micro:bit
 

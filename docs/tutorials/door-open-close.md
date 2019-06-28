@@ -4,7 +4,7 @@
 
 The door open and close sensor was built by using a @boardname@ to sense the magnetic force of a magnet on the door. The pupils learn about magnetic force and how to program a @boardname@ to show a happy face when the door is closed and keeping heat in and a sad face when the door is open letting the air out.
 
-![A smiling micro:bit attached to a door](/makecode-blockeditor/static/eis/tutorials/door-open-close/door-smile.jpg)
+![A smiling micro:bit attached to a door](/static/eis/tutorials/door-open-close/door-smile.jpg)
 
 |Learning Objectives|Success Criteria|
 |-|-|
@@ -15,13 +15,13 @@ The door open and close sensor was built by using a @boardname@ to sense the mag
 
 Place the ``||logic:if||`` block in the ``||basic:forever||``.
 
-![An animation that shows how to drag an if block](/makecode-blockeditor/static/eis/tutorials/door-open-close/add-if.gif)
+![An animation that shows how to drag an if block](/static/eis/tutorials/door-open-close/add-if.gif)
 
 ## Step 2 @fullscreen
 
 Place a ``||logic:comparison||`` block in the condition section of the ``||logic:if||`` block and select the greater than (>) comparison. This will allow you to compare two numbers against each other.
 
-![An animation that shows how to drag a comparison block](/makecode-blockeditor/static/eis/tutorials/door-open-close/add-comparison.gif)
+![An animation that shows how to drag a comparison block](/static/eis/tutorials/door-open-close/add-comparison.gif)
 
 ## Step 3 @fullscreen
 
@@ -29,7 +29,7 @@ In the comparison block, add a ``||input:magnetic force||`` block to the left ha
 
 In the right hand side, enter the value ``50``.
 
-![An animation that shows how to drag a magnetic force block](/makecode-blockeditor/static/eis/tutorials/door-open-close/add-force.gif)
+![An animation that shows how to drag a magnetic force block](/static/eis/tutorials/door-open-close/add-force.gif)
 
 
 This will now compare the strength of the magnetic field around the micro:bit against the number 50. When it is greater than 50 (when the door is closed and the @boardname@ is close to the magnet) the logic is true and the first section of the ``||logic:if||`` block will run.

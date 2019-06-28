@@ -36,7 +36,7 @@ To create an image that you can later modify, see the [create image](/makecode-b
 
 You should see code similar to this:
 
-![](/makecode-blockeditor/static/mb/blocks/image-0.png)
+![](/static/mb/blocks/image-0.png)
 
 ## Image functions
 

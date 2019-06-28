@@ -9,7 +9,7 @@
 
 All the bits and pieces that make up the BBC micro:bit
 
-![](/makecode-blockeditor/static/mb/device-0.png)
+![](/static/mb/device-0.png)
 
 
 ## LED Screen and Status LED

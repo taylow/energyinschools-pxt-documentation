@@ -53,7 +53,7 @@ version of one of the following:
 * Click on the app called 'System'
 * The version of Windows you are using will be displayed:
 
-![](/makecode-blockeditor/static/configurations/windows-version.png)
+![](/static/configurations/windows-version.png)
 
 ### Mac
 
@@ -61,7 +61,7 @@ version of one of the following:
 * Click on 'About this Mac'
 * This window will be displayed:
 
-![](/makecode-blockeditor/static/configurations/osx-version.png)
+![](/static/configurations/osx-version.png)
 
 ### Internet Explorer
 
@@ -69,7 +69,7 @@ version of one of the following:
 * Click 'About Internet Explorer'
 * This window will be displayed:
 
-![](/makecode-blockeditor/static/configurations/ie-version.png)
+![](/static/configurations/ie-version.png)
 
 ### Microsoft Edge
 
@@ -79,7 +79,7 @@ Microsoft Edge automatically updates, so you should always be using the latest v
 * Scroll to the bottom
 * Information similar to the following will be displayed:
 
-![](/makecode-blockeditor/static/configurations/edge-version.png)
+![](/static/configurations/edge-version.png)
 
 ### Google Chrome
 
@@ -89,7 +89,7 @@ Google Chrome automatically updates, so you should always be using the latest ve
 * Click Help, and About Google Chrome
 * Information similar to the following will be displayed:
 
-![](/makecode-blockeditor/static/configurations/chrome-version.png)
+![](/static/configurations/chrome-version.png)
 
 ### Firefox
 
@@ -99,7 +99,7 @@ Firefox automatically updates, so you should always be using the latest version
 * Click the question mark icon (help button)
 * Click 'About Firefox'
 
-![](/makecode-blockeditor/static/configurations/firefox-version.png)
+![](/static/configurations/firefox-version.png)
 
 ### Safari
 
@@ -109,7 +109,7 @@ latest version of OS X then you'll be using the latest version of Safari.
 * Click on the Safari menu in the top left
 * Click 'About Safari'
 
-![](/makecode-blockeditor/static/configurations/safari-version.png)
+![](/static/configurations/safari-version.png)
 
 IT administrators should check which browser versions are supported
 [here](/browsers/technical).

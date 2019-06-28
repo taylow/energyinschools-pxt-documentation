@@ -20,19 +20,19 @@ To do this, we can use the ``||energymeter:calibrate||`` block found in the ``||
 
 First, we must place an ``||input:on button A||`` event block down in the editor.
 
-![An animation that shows how to drag an on button A block](/makecode-blockeditor/static/eis/tutorials/energy-meter/add-button-event.gif)
+![An animation that shows how to drag an on button A block](/static/eis/tutorials/energy-meter/add-button-event.gif)
 
 ## Step 2 @fullscreen
 
 Next, place the ``||energymeter:calibrate||`` block found in the ``||energymeter:Energy Metering||`` section into the body of the ``||input:on button A||`` event block.
 
-![An animation that shows how to drag an on button A block](/makecode-blockeditor/static/eis/tutorials/energy-meter/add-calibrate.gif)
+![An animation that shows how to drag an on button A block](/static/eis/tutorials/energy-meter/add-calibrate.gif)
 
 ## Step 3 @fullscreen
 
 Place another ``||input:on button A||`` event block down, and change the button to ``||input:button B||``.
               
-![An animation that shows how to drag an on button A block and change the button](/makecode-blockeditor/static/eis/tutorials/energy-meter/add-button-B.gif)
+![An animation that shows how to drag an on button A block and change the button](/static/eis/tutorials/energy-meter/add-button-B.gif)
 
 ## Step 4 @fullscreen
 
@@ -40,13 +40,13 @@ Next we need to display the value of the energy use in watts on the micro:bit's 
 
 To do this, add a ``||basic:show number||`` block inside of the ``||input:on button B||`` block. This will display a number once ``||input:button B||`` is pressed.
 
-![An animation that shows how to drag a show number block](/makecode-blockeditor/static/eis/tutorials/energy-meter/add-show-number.gif)
+![An animation that shows how to drag a show number block](/static/eis/tutorials/energy-meter/add-show-number.gif)
 
 ## Step 5 @fullscreen
 
 To display the amount of power being used in Watts, drag a ``||energymeter:get energy consumption (watts)||`` block into the ``||basic:show number||`` block.
 
-![An animation that shows how to drag a get energy consumption (watts) block](/makecode-blockeditor/static/eis/tutorials/energy-meter/add-watts.gif)
+![An animation that shows how to drag a get energy consumption (watts) block](/static/eis/tutorials/energy-meter/add-watts.gif)
 
 ## Step 6 @fullscreen
 

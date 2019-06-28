@@ -30,7 +30,7 @@ Your computer should recognise your micro:bit as a new drive. On computers
 running Windows, `MICROBIT` appears as a drive under Devices and drives. On a Mac
 it appears as a new drive under Devices.
 
-![](/makecode-blockeditor/static/mb/device/usb-osx-device.png)
+![](/static/mb/device/usb-osx-device.png)
 
 ## Step 2: Download your program
 
@@ -46,9 +46,9 @@ your downloads in the top right of your browser. Right click on the file and
 click on **Show in Finder** and the file will appear in your downloads folder.
 Select the file and drag and drop it onto your `MICROBIT` drive.
 
-![](/makecode-blockeditor/static/mb/device/usb-osx-firefox-1.jpg)
+![](/static/mb/device/usb-osx-firefox-1.jpg)
 
-![](/makecode-blockeditor/static/mb/device/usb-osx-firefox-2.png)
+![](/static/mb/device/usb-osx-firefox-2.png)
 
 ## Step 3: Transfer the file to your micro:bit
 

@@ -19,32 +19,32 @@ https://youtu.be/mhXYyPuvpz0
 
 Tape the @boardname@ and battery pack to the card board. Make sure to remove the batteries while you are building your circuit.
 
-![](/makecode-blockeditor/static/mb/device/croc-clips/microbitattached.jpg)
+![](/static/mb/device/croc-clips/microbitattached.jpg)
 
 Cut the thinnest strip of foil possible and roll it into a cable. You can also try to fold, whatever works for you.
 Build two of those wires.
 
-![](/makecode-blockeditor/static/mb/device/croc-clips/foilcut.jpg)
+![](/static/mb/device/croc-clips/foilcut.jpg)
 
 Place the foil wire on the ``GND`` pin and attach with a piece of tape. Press hard to get the best connection between
 the foil and the pin board. Make sure the foil is not overlapping with the other pins!
 
-![](/makecode-blockeditor/static/mb/device/croc-clips/groundconnected.jpg)
+![](/static/mb/device/croc-clips/groundconnected.jpg)
 
 Place the second wire on the ``P0`` pin the same way. Make sure the wire does not overlap with the other pins!
 
-![](/makecode-blockeditor/static/mb/device/croc-clips/microbitconnect.jpg)
+![](/static/mb/device/croc-clips/microbitconnect.jpg)
 
 Tape the headphone jack connector to the cardboard and roll the wire coming from ``GND`` around the metal base. 
 Make sure the wire does not touch the other metal rings on the jack.
 
-![](/makecode-blockeditor/static/mb/device/croc-clips/jackground.jpg)
+![](/static/mb/device/croc-clips/jackground.jpg)
 
 Tape the second wire on the head of the jack connector.
 
-![](/makecode-blockeditor/static/mb/device/croc-clips/jackconnect.jpg)
+![](/static/mb/device/croc-clips/jackconnect.jpg)
 
-![](/makecode-blockeditor/static/mb/device/croc-clips/foilcircuit.jpg)
+![](/static/mb/device/croc-clips/foilcircuit.jpg)
 
 
 ## See also

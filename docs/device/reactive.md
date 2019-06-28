@@ -34,11 +34,11 @@ Let’s think about three sequences of instructions:
 
 In order to be responsive, we would like to *interrupt* the execution of sequence **S1** *periodically* to execute the sequence **S2**, which will check if button **A** is pressed, which looks like:
 
-![Execution sequence diagram: S1 and S2](/makecode-blockeditor/static/mb/device/reactive-0.png)
+![Execution sequence diagram: S1 and S2](/static/mb/device/reactive-0.png)
 
 The result is that it takes sequence **S1** a little longer to complete, due to the interruptions to execute sequence **S2**, but we are checking often enough to detect a press of button **A** .  When **S2** detects a press of button **A**, then the sequence **S3** can be executed before **S1** resumes:
 
-![Execution sequence diagram: S1 and S2 with interrupt and one S3 slice](/makecode-blockeditor/static/mb/device/reactive-1.png)
+![Execution sequence diagram: S1 and S2 with interrupt and one S3 slice](/static/mb/device/reactive-1.png)
 
 As we’ll soon see, there are other choices for how the sequences can be ordered to achieve the desired result.
 
@@ -143,7 +143,7 @@ Let’s go back to the `count button presses` program and revisit its execution 
 
 The program then ends execution and control passes back to the scheduler.  Let’s assume the user has not pressed any buttons . The scheduler finds the `forever` loop in the run queue and passes control to it. The loop first calls `basic.showNumber(0)`.  In the diagram below, we use “Show 0” to refer to the execution of this function:
 
-![Execution sequence diagram: display loop with increment and interrupt](/makecode-blockeditor/static/mb/device/reactive-3.png)
+![Execution sequence diagram: display loop with increment and interrupt](/static/mb/device/reactive-3.png)
 
 
 While "Show 0" (the blue sequence) is running, periodic interrupts by the scheduler (every 6 milliseconds) poll for button presses and queue an event handler for each press of button **A**. Let’s say that one button press takes place during this time, as shown above. This will cause an event handler (labelled “inc”) to be queued for later execution by the scheduler. Once the "Show 0" has completed, the loop then calls `basic.pause(20)` to put the forever loop to sleep for 20 milliseconds and give the scheduler an opportunity to run any newly queued event handler. Control passes to the “inc” event handler which will increment the global variable `count` from 0 to 1 and then complete, returning control to the scheduler. At some point, the `forever` loop moves from the sleep queue to the run queue; the `forever` loop then will resume and call `basic.showNumber(1)`.

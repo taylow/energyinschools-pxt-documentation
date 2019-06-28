@@ -30,7 +30,7 @@ Your computer should recognise your micro:bit as a new drive. On computers
 running Windows, `MICROBIT` appears as a drive under Devices and drives. On a Mac
 it appears as a new drive under Devices.
 
-![](/makecode-blockeditor/static/mb/device/usb-osx-device.png)
+![](/static/mb/device/usb-osx-device.png)
 
 ## Step 2: Download your program
 
@@ -44,7 +44,7 @@ When you select **Download** in Safari a file called `Unknown` will be
 downloaded into your Downloads folder. Open your Downloads folder and drag and
 drop the file onto your `MICROBIT` drive, under Devices:
 
-![](/makecode-blockeditor/static/mb/device/usb-osx-dnd.png)
+![](/static/mb/device/usb-osx-dnd.png)
 
 ## Step 3: Transfer the file to your micro:bit
 

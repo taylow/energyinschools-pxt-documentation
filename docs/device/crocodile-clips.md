@@ -14,22 +14,22 @@ to create electrical circuit with other components.
 
 The hole for ``P0`` and ``GND`` allow to grab the board on the side which makes for a great grip.
 
-![](/makecode-blockeditor/static/mb/device/croc-clips/crocclipsclamped.jpg)
+![](/static/mb/device/croc-clips/crocclipsclamped.jpg)
 
 Pass one jaw in the hole and grab the side of the board with the other jaw.
 
-![](/makecode-blockeditor/static/mb/device/croc-clips/sideclamp.jpg)
+![](/static/mb/device/croc-clips/sideclamp.jpg)
 
 For the center holes, ``P1`` and ``P2``, you can also grab the bottom of the board but they are a bit harder to grip.
 
 You can also grip the board between the jaws. In which case, you will want to make sure to avoid overlapping the jaws 
 with the other pins as it will create short-circuit in the board.
 
-![](/makecode-blockeditor/static/mb/device/croc-clips/badclamp.jpg)
+![](/static/mb/device/croc-clips/badclamp.jpg)
 
 Adding a little tape helps keeping the crocodile clips in place.
 
-![](/makecode-blockeditor/static/mb/device/croc-clips/frontclamp.jpg)
+![](/static/mb/device/croc-clips/frontclamp.jpg)
 
 ## Example: on pin pressed with random numbers
 

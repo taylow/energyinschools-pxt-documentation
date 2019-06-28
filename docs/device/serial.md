@@ -54,11 +54,11 @@ If you prefer another terminal emulator (such as [PuTTY](http://www.putty.org/))
 * Open Windows's [Device Manager](https://windows.microsoft.com/en-us/windows/open-device-manager); expand the section called "Ports (COM & LPT)"; write down the com number for "mbed Serial Port" (e.g. COM14)
 * Open PuTTY; on the main screen, use the following settings: Serial / COM14 / 115200. Replace COM14 with the COM port number you wrote down previously. Feel free to type in a name and hit "Save" to remember this configuration.
 
-![](/makecode-blockeditor/static/mb/serial-library-0.png)
+![](/static/mb/serial-library-0.png)
 
 * (optional): in the "Terminal" section, check "implicit cr in every lf"
 
-![](/makecode-blockeditor/static/mb/serial-library-1.png)
+![](/static/mb/serial-library-1.png)
 
 ## Linux
 

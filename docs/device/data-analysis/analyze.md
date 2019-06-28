@@ -16,7 +16,7 @@ for (let x = 0; x <= 10; x++) {
 }
 ```
 
-![Charts of line and parabola](/makecode-blockeditor/static/mb/device/data-analysis/line-parabola.jpg)
+![Charts of line and parabola](/static/mb/device/data-analysis/line-parabola.jpg)
 
 Since we used ``||serial:serial write value||`` for each value, there are two charts, one for the `x` stream and the other for the `y` stream. Also, the values shown in the console window are formatted as name value pairs:
 
@@ -39,7 +39,7 @@ for (let x = 0; x <= 10; x++) {
 }
 ```
 
-![One chart of both line and parabola](/makecode-blockeditor/static/mb/device/data-analysis/line-parabola2.jpg)
+![One chart of both line and parabola](/static/mb/device/data-analysis/line-parabola2.jpg)
 
 This time both values are shown on the same chart. We used ``||serial:serial write numbers||`` to send both values at the same time. Instead of being written as name value pairs, the values are combined into one line of comma separated values (CSV). The Data Viewer recognizes the values as one stream and puts multiple data lines on the same chart. The console shows the data in CSV format:
 
@@ -57,13 +57,13 @@ The data in the console window appears exactly like it's written by your program
 
 You can select and copy the raw data from the console and paste it into another program if you want to work with it outside of the MakeCode editor. Also, there is a copy button next to the console window that let's you easily copy the raw data with one click.
 
-![Copy button for console data](/makecode-blockeditor/static/mb/device/data-analysis/copy-button.gif)
+![Copy button for console data](/static/mb/device/data-analysis/copy-button.gif)
 
 ## Downloading your data
 
 You can download your data to save it to view in another program. Click the **Download** button above the chart view.
 
-![Download button highlighted](/makecode-blockeditor/static/mb/device/data-analysis/download-button.jpg)
+![Download button highlighted](/static/mb/device/data-analysis/download-button.jpg)
 
 The data is formatted again and saved in file with a name like:
 
@@ -99,12 +99,12 @@ The remaining lines contain the data values and their timestamps. Each line has 
 
 Each line of data is placed into a row in the spreadsheet. The separators tell the spreadsheet which column the values go into.
 
-![CSV data in spreadsheet](/makecode-blockeditor/static/mb/device/data-analysis/spreadsheet-data.jpg)
+![CSV data in spreadsheet](/static/mb/device/data-analysis/spreadsheet-data.jpg)
 
 ### Analyze in the spreadsheet
 
 Spreadsheets are powerful tools for analyzing and looking at relationships in your data. Most spreadsheet programs can do advanced charting too. Here's a chart of our example data. You'll notice that it looks similar to the chart displayed by the MakeCode editor.
 
-![Spreadsheet with chart](/makecode-blockeditor/static/mb/device/data-analysis/spreadsheet-chart.jpg)
+![Spreadsheet with chart](/static/mb/device/data-analysis/spreadsheet-chart.jpg)
 
 The spreadsheet knows how to take the headings from the download file and use them as labels for the individual data lines.

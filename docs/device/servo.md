@@ -53,35 +53,35 @@ You can also connect your crocodile clips directly to the servo.
 
 With the cutting pliers, cut off the dark plastic connector.
 
-![Cutting of the plastic connector from the servo cable](/makecode-blockeditor/static/mb/projects/inchworm/servo1.jpg)
+![Cutting of the plastic connector from the servo cable](/static/mb/projects/inchworm/servo1.jpg)
 
 ### Step 2: Strip the ends of the cables
 
 Using the pliers or a wire stripper, strip the plastic insulation from the cables.
 
-![Stripping the servo cable insulation](/makecode-blockeditor/static/mb/projects/inchworm/servotrim.jpg)
+![Stripping the servo cable insulation](/static/mb/projects/inchworm/servotrim.jpg)
 
 ### Step 3: Twist the wire strands together
 
 Twist the strands of bare wire at the ends of the servo cables together.
 
-![Strands of the servo wires twisted together](/makecode-blockeditor/static/mb/projects/inchworm/servo3.jpg)
+![Strands of the servo wires twisted together](/static/mb/projects/inchworm/servo3.jpg)
 
 ### Step 4: Crocodile clip
 
 Cut a crocodile cable in two and strip off the insulation. If it's possible, try to use cables with colors that match the cables on the servo!
 
-![Stripping insulation of a croc cable with cutting pliers](/makecode-blockeditor/static/mb/projects/inchworm/servo4.jpg)
+![Stripping insulation of a croc cable with cutting pliers](/static/mb/projects/inchworm/servo4.jpg)
 
 ### Step 5: Thread the cable ends together
 
 Place the cables next to each other...
 
-![Bare wires place together before threading](/makecode-blockeditor/static/mb/projects/inchworm/servo5.jpg)
+![Bare wires place together before threading](/static/mb/projects/inchworm/servo5.jpg)
 
 ... and thread them together.
 
-![Bare wires threaded together](/makecode-blockeditor/static/mb/projects/inchworm/servo6.jpg)
+![Bare wires threaded together](/static/mb/projects/inchworm/servo6.jpg)
 
 ### ~ hint
 
@@ -93,13 +93,13 @@ It is very **important** to ensure that there is a good connection between the 2
 
 Protect the connection with heat shrink tubing, electrical tape, or duct tape.
 
-![Wire connection protected with electrical tape](/makecode-blockeditor/static/mb/projects/inchworm/servo7.jpg)
+![Wire connection protected with electrical tape](/static/mb/projects/inchworm/servo7.jpg)
 
 ### Step 7: Repeat for all cables
 
 Repeat the same process until all cables are connected.
 
-![All three cables connected and taped](/makecode-blockeditor/static/mb/projects/inchworm/servo8.jpg)
+![All three cables connected and taped](/static/mb/projects/inchworm/servo8.jpg)
 
 ### Step 8: Testing!
 
@@ -107,13 +107,13 @@ It's time to test and find out if your connections are all secure and that the s
 
 * Connect the microservo cables to these pins on the @boardname@: black to **GND**, red to **3V**, and the remaining cable to pin **0**.
 
-![Connect to the pins on the board](/makecode-blockeditor/static/mb/projects/inchworm/circuit1.jpg)
+![Connect to the pins on the board](/static/mb/projects/inchworm/circuit1.jpg)
 
 ## ~ hint
 
 When attaching the crocodile clips to the pins, don't be afraid to clamp on to the edge of the board with the clips.
 
-![Clippiing the cables to the edge of the board](/makecode-blockeditor/static/mb/projects/inchworm/circuit2.jpg)
+![Clippiing the cables to the edge of the board](/static/mb/projects/inchworm/circuit2.jpg)
 
 ## ~
 

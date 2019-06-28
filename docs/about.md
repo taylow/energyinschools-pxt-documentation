@@ -1,4 +1,4 @@
-![](/makecode-blockeditor/static/eis/polar-bear.jpg)
+![](/static/eis/polar-bear.jpg)
 
 # About
 

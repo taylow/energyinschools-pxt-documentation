@@ -4,7 +4,7 @@ Most of the time you'll be writing and testing your programs in the [simulator](
 
 When you plug your @boardname@ into USB, a new drive is created with the **@drivename@** label. This is where you'll save your program.
 
-![](/makecode-blockeditor/static/mb/device/usb-thin.jpg)
+![](/static/mb/device/usb-thin.jpg)
 
 The basic steps are:
 

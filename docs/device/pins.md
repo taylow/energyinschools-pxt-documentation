@@ -2,7 +2,7 @@
 
 The micro:bit pins 
 
-![](/makecode-blockeditor/static/mb/device/pins-0.png)
+![](/static/mb/device/pins-0.png)
 
 The micro:bit has 25 external connections on the edge connector of the board, which we refer to as ‘pins’.  The edge connector is the grey area on the right side of the figure above.
 

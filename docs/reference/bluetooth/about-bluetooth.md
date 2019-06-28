@@ -1,6 +1,6 @@
 # About Bluetooth
 
-![](/makecode-blockeditor/static/bluetooth/Bluetooth_SIG.png)
+![](/static/bluetooth/Bluetooth_SIG.png)
 
 ## Introduction
 
@@ -26,7 +26,7 @@ Services, Characteristics and Descriptors are all types of Attribute. Hence Gene
 
 Services, Characteristics and Descriptors are organised in a hierarchy with Services at the top and Descriptors at the bottom. Services contain one or more Characteristics. A Characteristic owns zero or more Descriptors. Zero because Descriptors are completely optional whereas a Service must contain at least one Characteristic.
 
-![](/makecode-blockeditor/static/bluetooth/gatt_hierarchy.png)
+![](/static/bluetooth/gatt_hierarchy.png)
   
 ## Services
 
@@ -58,7 +58,7 @@ A Bluetooth profile is a specification which pulls together all the required inf
 
 When a smartphone application interacts with a device like the @boardname@ over a Bluetooth connection we have a client/server architecture. The phone application is usually the GATT client and the @boardname@ is usually the GATT server. They communicate using a protocol called the Attribute Protocol or just ATT for short. As a smartphone developer you work with APIs and do not have to worry about formulating ATT protocol data units and so on.
 
-![](/makecode-blockeditor/static/bluetooth/services_and_GATT.png)
+![](/static/bluetooth/services_and_GATT.png)
 
 ## Device Discovery
 

@@ -77,7 +77,7 @@ input.onButtonPressed(Button.B, () => {
 
 The chart for the the plotted values from the example above:
 
-![Plot LEDs chart result](/makecode-blockeditor/static/mb/device/data-analysis/plot-bar-graph.jpg)
+![Plot LEDs chart result](/static/mb/device/data-analysis/plot-bar-graph.jpg)
 
 The values appear in the console as just one number per line:
 

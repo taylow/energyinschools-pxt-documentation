@@ -50,7 +50,7 @@ for (let i = 0; i < 4; i++) {
 
 The four messages appear in the console window:
 
-![Console output](/makecode-blockeditor/static/mb/device/data-analysis/console-output.jpg)
+![Console output](/static/mb/device/data-analysis/console-output.jpg)
 
 ## Writing numbers
 
@@ -103,7 +103,7 @@ basic.forever(() => {
 
 Data lines are shown for each value in the array:
 
-![Data lines on chart](/makecode-blockeditor/static/mb/device/data-analysis/data-lines.jpg)
+![Data lines on chart](/static/mb/device/data-analysis/data-lines.jpg)
 
 Give this example a try and watch the chart make a diamond pattern from two triangle waves:
 
@@ -126,7 +126,7 @@ basic.forever(() => {
 
 It will look like this:
 
-![Data pattern on chart](/makecode-blockeditor/static/mb/device/data-analysis/diamond-chart.jpg)
+![Data pattern on chart](/static/mb/device/data-analysis/diamond-chart.jpg)
 
 ## Name value pairs
 
@@ -151,11 +151,11 @@ basic.forever(() => {
 
 Two charts display each value stream:
 
-![Two charts for each value type](/makecode-blockeditor/static/mb/device/data-analysis/two-value-chart.jpg)
+![Two charts for each value type](/static/mb/device/data-analysis/two-value-chart.jpg)
 
 The console output shows the different name value pairs too:
 
-![Two values in console output](/makecode-blockeditor/static/mb/device/data-analysis/two-value-console.jpg)
+![Two values in console output](/static/mb/device/data-analysis/two-value-console.jpg)
 
 ### Writing subvalues
 
@@ -184,4 +184,4 @@ basic.forever(() => {
 
 Each subvalue ``'x'``, ``'y'``, and ``'z'`` is displayed on the chart named ``"acceleration"`` in the Data Viewer.
 
-![Three subvalues of acceleration in one chart](/makecode-blockeditor/static/mb/device/data-analysis/combined-values.jpg)
+![Three subvalues of acceleration in one chart](/static/mb/device/data-analysis/combined-values.jpg)

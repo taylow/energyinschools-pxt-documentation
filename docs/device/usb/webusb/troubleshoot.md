@@ -10,7 +10,7 @@ Having issues pairing your @boardname@ with [WebUSB](/device/usb/webusb)? Let's 
 
 Make sure that your @boardname@ is connected to your computer with a micro USB cable. You should see a **MICROBIT** drive appear in Windows Explorer when it's connected. 
 
-![MICROBIT drive](/makecode-blockeditor/static/mb/device/windows-microbit-drive.png)
+![MICROBIT drive](/static/mb/device/windows-microbit-drive.png)
 
 **If you can see the MICROBIT drive go to step 2**.
 
@@ -27,9 +27,9 @@ It's possible that the firmware version on the @boardname@ needs an update. Let'
 
 1. Go to the **MICROBIT** drive.
 2. Open the **DETAILS.TXT** file.<br/>
-![](/makecode-blockeditor/static/mb/device/mb-drive-contents.jpg)<br/>
+![](/static/mb/device/mb-drive-contents.jpg)<br/>
 3. Look for a line in the file that says the version number. It should say **Version: \.\.\.**
-![](/makecode-blockeditor/static/mb/device/details-txt.jpg)<br/>
+![](/static/mb/device/details-txt.jpg)<br/>
 
 If the version is **0234**, **0241**, **0243** you **NEED** to update the [firmware](/device/firmware) on your @boardname@. Go to **Step 3** and follow the upgrade instructions.
 
@@ -38,7 +38,7 @@ If the version is **0249**, **0250** or higher, **you have the right firmware** 
 ## Step 3: Upgrade the firmware
 
 1. Put your @boardname@ into **MAINTENANCE Mode**. To do this, unplug the USB cable from the @boardname@ and then re-connect the USB cable while you hold down the reset button. Once you insert the cable, you can release the reset button. You should now see a **MAINTENANCE** drive instead of the **MICROBIT** drive like before. Also, a yellow LED light will stay on next to the reset button.
-![MAINTENANCE gesture](/makecode-blockeditor/static/mb/device/maintenance.gif)
+![MAINTENANCE gesture](/static/mb/device/maintenance.gif)
 2. **[Download the firmware .hex file](https://microbit.org/guide/firmware/)**
 3. Drag and drop that file onto the **MAINTENANCE** drive.
 4. The yellow LED will flash while the `HEX` file is copying. When the copy finishes, the LED will go off and the @boardname@ resets. The **MAINTENANCE** drive now changes back to **MICROBIT**.
